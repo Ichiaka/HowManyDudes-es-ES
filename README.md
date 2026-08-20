@@ -11,28 +11,42 @@ reliquias, baratijas, glosario, interfaz y diálogos.
 
 ## Instalación
 
-Necesitas [Node.js](https://nodejs.org). El instalador añade el idioma a **tu propio**
-archivo del juego, sin sustituirlo.
+**Windows: descarga el repo y haz doble clic en `Instalar.bat`.** Ya está.
 
-1. Descarga este repo (*Code → Download ZIP*, o `git clone`).
-2. Localiza la carpeta del juego. En Steam: *clic derecho en el juego → Administrar →
-   Ver archivos locales*. El archivo está en:
-   `...\Steam\steamapps\common\How Many Dudes\Localization\l10n.json`
-3. Ejecuta el instalador apuntando a ese archivo:
+No hace falta instalar nada: el instalador usa PowerShell, que viene con Windows.
+Busca el juego solo (lee dónde tiene Steam sus bibliotecas), hace una copia de seguridad
+y añade el idioma. Si no lo encuentra, te deja arrastrar el archivo `l10n.json` a la
+ventana.
 
-```bash
-node tools/install-es-ES.js "C:/Program Files (x86)/Steam/steamapps/common/How Many Dudes/Localization/l10n.json"
+Luego abre el juego y elige **Spanish (Spain)** en los ajustes de idioma.
+
+<details>
+<summary>Otras formas de instalarlo</summary>
+
+Pasándole la ruta a mano:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File tools\install-es-ES.ps1 "C:\ruta\l10n.json"
 ```
 
-4. Abre el juego y elige **Spanish (Spain)** en los ajustes de idioma.
+En Mac o Linux, con [Node.js](https://nodejs.org):
 
-El instalador:
+```bash
+node tools/install-es-ES.js "/ruta/a/How Many Dudes/Localization/l10n.json"
+```
 
-- inserta el idioma en **tu** archivo, sin tocar ninguno de los que ya tiene;
-- es idempotente — puedes ejecutarlo las veces que quieras;
-- guarda una copia de seguridad `l10n.json.bak-es-ES` la primera vez;
-- conserva el formato exacto del archivo (indentación de 2 espacios, saltos CRLF);
-- avisa de las cadenas nuevas que traiga una actualización del juego y estén pendientes
+El archivo del juego está en `...\steamapps\common\How Many Dudes\Localization\l10n.json`.
+En Steam: *clic derecho en el juego → Administrar → Ver archivos locales*.
+
+</details>
+
+Los dos instaladores hacen exactamente lo mismo:
+
+- añaden el idioma a **tu** archivo, sin tocar ninguno de los que ya tiene;
+- son idempotentes — puedes ejecutarlos las veces que quieras;
+- guardan una copia de seguridad `l10n.json.bak-es-ES` la primera vez;
+- conservan el formato exacto del archivo;
+- avisan de las cadenas nuevas que traiga una actualización del juego y estén pendientes
   de traducir (el juego las mostrará en inglés mientras tanto).
 
 Cada actualización del juego sobrescribe el `l10n.json`, así que habrá que repetirlo.
