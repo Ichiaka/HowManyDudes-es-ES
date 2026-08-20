@@ -84,11 +84,8 @@ En los diálogos se busca que suene de aquí, no a doblaje neutro: *SWEET!* es *
 *cash* que mencionan el traficante, el comerciante y el tío gourmet es **pasta** — aunque
 en las estadísticas y en la interfaz se mantiene *dinero*.
 
-Un par de nombres se han adaptado en vez de traducirse al pie de la letra:
+Un nombre se ha adaptado en vez de traducirse al pie de la letra:
 
-- ***Bean Burrito* → Fabada asturiana.** El efecto de la reliquia es soltar una explosión
-  de gas tóxico al caer noqueado, así que el plato tenía que llevar legumbre para que el
-  chiste siguiera funcionando.
 - ***Shiv* → Pincho**, que es la jerga equivalente, y además no se confunde con
   "Cuchilla de muñeca" (*Wrist Blade*) ni "Cuchillo de cazador" (*Hunter's Blade*).
 

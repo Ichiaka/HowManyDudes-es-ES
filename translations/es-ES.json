@@ -2272,7 +2272,7 @@
   "relic_pumpkin_latte_name": "Latte de calabaza",
   "relic_captains_hat_name": "Sombrero de capitán",
   "relic_helmet_desc": "Cuando [c:g]lanzan[/c] a un tío, suma un {variables|speed_boost|percent} de [c:g]velocidad de carrera[/c], un {variables|attack_speed_boost|percent} de [c:g]velocidad de ataque[/c] y [c:g]salud temporal[/c] equivalente al {variables|temp_health|percent} de sus [c:g]PS máximos[/c] durante {variables|duration} segundos.",
-  "relic_bean_burrito_name": "Fabada asturiana",
+  "relic_bean_burrito_name": "Burrito mexicano",
   "relic_black_sheep_name": "Oveja negra",
   "collections_silver_bar": "Obtén estrellas plateadas de reliquias y baratijas por superar la ronda {relic_round_number} con ellas, y de tíos por superar la ronda {dude_round_number} con al menos {num_dudes_required} de ellos en el equipo.",
   "relic_r_brilliant_smile_name": "Sonrisa brillante",
